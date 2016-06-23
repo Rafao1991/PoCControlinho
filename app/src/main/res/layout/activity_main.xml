@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="example.poccontrolinho.MainActivity" >
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="140dp"
+        android:text="TEXTÃO DA HORA DO MEDO PRA TESTAR MAIS E MAIS E MAIS E MAIS E MAIS!!!!" />
+
+    <example.poccontrolinho.ControlinhoControl
+        android:id="@+id/controlinho2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/txt1"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="70dp"
+        android:text="TEXTÃO DA HORA DO MEDO PRA TESTAR MAIS!!!!" />
+
+    <example.poccontrolinho.ControlinhoControl
+        android:id="@+id/controlinho1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="TEXTÃO DA HORA DO MEDO!!!!" />
+
+    <example.poccontrolinho.ControlinhoControl
+        android:id="@+id/controlinho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
